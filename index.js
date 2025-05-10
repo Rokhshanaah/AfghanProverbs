@@ -1,7 +1,7 @@
 const express =require('express');
 const proverbsRoutes = require('./routes/proverbs');
 const app= express(); 
-const PORT = 300;
+const PORT = 3000;
 
 app.use(express.json());
 app.use('/proverbs',proverbsRoutes);
